@@ -18,6 +18,6 @@ def start_message(client, message):
 
 Konnichiwa senpai!
 
-Please read all the instructions about the bot before surfing on...__
+Please read all the instructions about the bot before surfing on...
 
 See /whats_new to know about latest updates...""", reply_markup=reply_markup, parse_mode="markdown")
