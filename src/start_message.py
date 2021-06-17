@@ -13,7 +13,7 @@ def start_message(client, message):
         [InlineKeyboardButton("Instructions", callback_data="instructions")],
     ]
     reply_markup = InlineKeyboardMarkup(kkeeyyb)
-    pic_url = "https://drive.google.com/file/d/1DmfpdV43PHg5sRyP3yrIrAcfs_T_rvZi/view?usp=drivesdk"
+    pic_url = "https://drive.google.com/file/d/1E0NVETNx4NjaIv4zjiLB971i_Vzzx9pL/view?usp=drivesdk"
     message.reply_photo(pic_url, caption=f"""**Hi {message.chat.first_name}**,
 
 Konnichiwa senpai!
